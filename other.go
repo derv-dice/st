@@ -1,4 +1,4 @@
-package other
+package st
 
 import (
 	"github.com/google/uuid"

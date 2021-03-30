@@ -14,7 +14,7 @@ var (
 
 // Colorful Println. Works only with unix terminal, but not Windows CLI
 //	Example:
-//	 	ColorPrint("Hello, world!", true, false, Red...)
+//	 	st.ColorPrint("Hello, world!", true, false, st.Red...)
 func ColorPrint(val interface{}, foreground bool, background bool, color ...int) {
 	// No color
 	if !foreground && !background {
